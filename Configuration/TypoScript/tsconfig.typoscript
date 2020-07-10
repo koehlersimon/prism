@@ -1,0 +1,23 @@
+TCEFORM.tt_content {
+    prism_code_type {
+        addItems {
+            prism-custom-item = Your custom item
+        }
+    }
+}
+
+mod.wizards.newContentElement.wizardItems.common {
+    elements {
+        prism {
+            iconIdentifier = prism-icon
+            title = Prism Code Highlighter
+            description = Any type of code nicely highlighted
+            tt_content_defValues {
+                CType = prism
+            }
+        }
+    }
+    show := addToList(prism)
+}
+
+mod.web_layout.tt_content.preview.prism = EXT:prism/Resources/Private/Templates/Preview.html

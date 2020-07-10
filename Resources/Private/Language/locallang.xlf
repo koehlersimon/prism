@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2020-07-08T20:52:25Z" product-name="prism">
+        <header/>
+        <body>
+
+            <trans-unit id="bodytext">
+                <source>Source code</source>
+            </trans-unit>
+            <trans-unit id="prism_code_type">
+                <source>Code type / language</source>
+            </trans-unit>
+            <trans-unit id="prism_line_highlight">
+                <source>Highlighted lines</source>
+            </trans-unit>
+
+        </body>
+    </file>
+</xliff>

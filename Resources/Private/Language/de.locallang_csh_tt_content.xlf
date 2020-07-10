@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="de" datatype="plaintext" original="messages" date="2020-07-03T04:55:47Z" product-name="prism">
+		<header/>
+		<body>
+			<trans-unit id="prism_code_type.description">
+				<target>
+                    <![CDATA[Der Code-Typ (Programmiersprache) für die Darstellung im Frontend. Die Auswahl hat keine Auswirkungen auf die Anzeige oder Code-Formatierung im Backend. Um weitere Code-Typen hinzuzufügen, muss das Dropdown-Menü per TSConfig-Konfiguration um weitere Einträge erweitert werden, sowie weitere CSS-Dateien angelegt werden.]]>
+                </target>
+			</trans-unit>
+            <trans-unit id="bodytext.description">
+				<target>
+                    <![CDATA[Hier wird der Quellcode eingetragen. Standardmäßig ist HTML als Code-Sprache eingestellt. Dies kann durch überschreiben der TCA-Konfiguration für das Inhaltselement 'prism' geändert werden.]]>
+                </target>
+			</trans-unit>
+            <trans-unit id="prism_line_highlight.description">
+				<target>
+                    <![CDATA[Kommaseparierte Einträge zur Hervorhebung bestimmter Zeilen im Code. Beispiel: 2,4,23,24 ]]>
+                </target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

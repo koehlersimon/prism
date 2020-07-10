@@ -1,0 +1,10 @@
+# customcategory=prism=Prism
+
+plugin.tx_prism{
+    settings{
+        # cat=prism; type=options[default,coy,dark,funky,okaidia,solarizedlight,tomorrow,twilight]; label=Prism Theme
+        themeFile = default
+        # cat=prism; type=string; label=Prism JavaScript source code
+        prismCore = EXT:prism/Resources/Public/Prism/prism-core.js
+    }
+}

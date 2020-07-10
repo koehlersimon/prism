@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2020-07-03T04:55:47Z" product-name="prism">
+		<header/>
+		<body>
+			<trans-unit id="prism_code_type.description">
+				<source>
+                    <![CDATA[The code type (programming language) for the display in the frontend. The selection has no effect on the display or code formatting in the backend. In order to add further code types, the dropdown menu must be expanded by TSConfig configuration with further entries, as well as additional CSS files.]]>
+                </source>
+			</trans-unit>
+            <trans-unit id="bodytext.description">
+				<source>
+                    <![CDATA[The source code is entered here. HTML is set as the default code language. This can be changed by overwriting the TCA configuration for the content element 'prism'.]]>
+                </source>
+			</trans-unit>
+            <trans-unit id="prism_line_highlight.description">
+				<source>
+                    <![CDATA[Comma-separated entries to highlight certain lines in the code. Example: 2,4,23,24]]>
+                </source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

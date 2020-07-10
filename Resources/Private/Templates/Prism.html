@@ -1,0 +1,6 @@
+{namespace prism=SIMONKOEHLER\Prism\ViewHelpers}
+<f:layout name="Default" />
+
+<f:section name="Main">
+    <pre{f:if(condition:'{data.prism_line_highlight}', then:' data-line="{data.prism_line_highlight}"')}><code class="language-{data.prism_code_type}"><prism:prism source="{data.bodytext}"/></code></pre>
+</f:section>

@@ -1,0 +1,48 @@
+page = PAGE
+page{
+
+	includeCSS {
+        tx_prism = EXT:prism/Resources/Public/Prism/themes/prism-{$plugin.tx_prism.settings.themeFile}.css
+	}
+
+	includeJSFooter {
+		// This is the current PRISM setup
+		// To include your own setup, download your own JS file and overwrite prism-core.js or change the path!
+		// https://prismjs.com/download.html#themes=prism-funky&languages=markup+css+clike+javascript+javadoclike+markup-templating+php+phpdoc+python+sass+scss+yaml&plugins=line-highlight+toolbar+copy-to-clipboard
+        tx_prism_core = {$plugin.tx_prism.settings.prismCore}
+	}
+
+}
+
+tt_content {
+
+    prism =< lib.contentElement
+    prism {
+        templateName = Prism
+        extbase.controllerExtensionName = prism
+        dataProcessing{
+            10 = TYPO3\CMS\Frontend\DataProcessing\FilesProcessor
+            10 {
+                references {
+                    table = tt_content
+                    fieldName = image
+                }
+                as = images
+            }
+        }
+    }
+
+}
+
+# Fluid Styled Content Templates
+lib.contentElement {
+    layoutRootPaths {
+        20781 = EXT:prism/Resources/Private/Layouts/
+    }
+    templateRootPaths {
+        20781 = EXT:prism/Resources/Private/Templates/
+    }
+    partialRootPaths {
+        20781 = EXT:prism/Resources/Private/Partials/
+    }
+}
