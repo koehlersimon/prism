@@ -1,5 +1,5 @@
 <?php
-$EM_CONF[$_EXTKEY] = array(
+$EM_CONF[$_EXTKEY] = [
     'title' => 'Prism Highlighter',
     'description' => 'Easy implementation of the PRISM Highlighter without jQuery',
     'category' => 'plugin',
@@ -11,15 +11,15 @@ $EM_CONF[$_EXTKEY] = array(
     'createDirs' => '',
     'clearCacheOnLoad' => 0,
     'version' => '1.0.0',
-    'constraints' => array(
-        'depends' => array(
-            'typo3' => '8.7.1 - 9.5.99'
-        ),
-        'conflicts' => array(
+    'constraints' => [
+        'depends' => [
+            'typo3' => '8.7.1 - 11.2.0'
+        ],
+        'conflicts' => [
 
-        ),
-        'suggests' => array(
+        ],
+        'suggests' => [
 
-        ),
-    ),
-);
+        ],
+    ],
+];
