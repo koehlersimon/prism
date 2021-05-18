@@ -73,7 +73,6 @@ call_user_func(function () {
 				]
 			],
 	    ],
-		/*
 		'prism_layout' => [
 	        'exclude' => 0,
 			'label' => 'Layout',
@@ -91,7 +90,6 @@ call_user_func(function () {
 				]
 			],
 	    ],
-		*/
 		'prism_line_highlight' => [
 	        'exclude' => 0,
 			'label' => 'LLL:EXT:prism/Resources/Private/Language/locallang.xlf:prism_line_highlight',
